@@ -1,5 +1,6 @@
 package com.dvoineu.doorpanel;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     public void onClickUpLeft (View view){
         Button btnUpLeftNameOfEmployee = (Button) view;
         Log.i("clicked", "Button clicked!");
+        Intent intent = new Intent(this, EmployeeInfoActivity.class);
+        startActivity(intent);
         
     }
 
