@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "357222407374",
+    "firebase_url": "https://doorpanel-2ad31.firebaseio.com",
+    "project_id": "doorpanel-2ad31",
+    "storage_bucket": "doorpanel-2ad31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357222407374:android:5481ebed8bae1105",
+        "android_client_info": {
+          "package_name": "com.dvoineu.doorpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357222407374-rt4k3n72n0sfeobncinthb6lsvm7tifl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dvoineu.doorpanel",
+            "certificate_hash": "5c9a50e9cd676278bcc9f294bb1eb9d65ea211f5"
+          }
+        },
+        {
+          "client_id": "357222407374-9gbv2uvee1ku5kpdpv1lf0h6pslb3hrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2J2oTJQE4ZTvPvyYdMuDLyunf-2vY5xE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357222407374-9gbv2uvee1ku5kpdpv1lf0h6pslb3hrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -12,6 +12,7 @@
     <string name="telephone1TextView">+49 6151 16-23200</string>
     <string name="email1TextView">bravo.iptk@gmail.com</string>
     <string name="btnBack">Back</string>
+    <string name="btnLogin">Login</string>
     <string name="tu_logo">tu logo</string>
 
 </resources>
