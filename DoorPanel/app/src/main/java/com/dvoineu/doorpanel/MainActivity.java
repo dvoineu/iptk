@@ -10,29 +10,10 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void onClickUpLeft (View view){
-        Button btnUpLeftNameOfEmployee = (Button) view;
-        Log.i("clicked", "Button clicked!");
-        Intent intent = new Intent(this, EmployeeInfoActivity.class);
+    public void onClickToUserStartMenu(View view){
+        Intent intent = new Intent(this, UserStartMenuActivity.class);
         startActivity(intent);
-        
     }
-
-    public void onClickUpRight (View view){
-        Button btnUpRightNameOfEmployee = (Button) view;
-        Log.i("clicked", "Button clicked upRight!");
-    }
-
-    public void onClickBottomRight (View view){
-        Button btnBottomRightNameOfEmployee = (Button) view;
-        Log.i("clicked", "Button clicked upRight!");
-    }
-
-    public void onClickBottomLeft (View view){
-        Button btnBottomLeftNameOfEmployee = (Button) view;
-        Log.i("clicked", "Button clicked left!");
-    }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
