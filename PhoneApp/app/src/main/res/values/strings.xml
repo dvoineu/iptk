@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Phone App</string>
+    <string name="helpInfoTextView">To view office hours or make an appointment click on the person\'s name</string>
+    <string name="btnBack">Back</string>
+    <string name="btnLogin">Login</string>
+    <string name="tu_logo">tu logo</string>
+</resources>
