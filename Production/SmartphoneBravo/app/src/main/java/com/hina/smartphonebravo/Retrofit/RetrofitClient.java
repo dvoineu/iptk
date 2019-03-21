@@ -1,5 +1,7 @@
 package com.hina.smartphonebravo.Retrofit;
 
+import com.hina.smartphonebravo.Constants;
+
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
@@ -13,8 +15,8 @@ public class RetrofitClient {
 
         if(instance==null){
             instance = new Retrofit.Builder()
-//                    .baseUrl("https://teambravo-nodejs-server.herokuapp.com/")
-                    .baseUrl("http://10.0.2.2:3000/")
+                    .baseUrl(Constants.BASE_URL)
+//                    .baseUrl("http://10.0.2.2:3000/")
                     .addConverterFactory(ScalarsConverterFactory.create())
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .build();
