@@ -33,7 +33,8 @@ public interface INodeJS {
 
     @POST("message")
     @FormUrlEncoded
-    Call<String> message(@Field("message")String message);
+    Call<String> message(@Field("message")String message
+                         );
 
     @POST("office_hours")
     @FormUrlEncoded
